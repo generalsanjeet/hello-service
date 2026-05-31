@@ -38,6 +38,7 @@
 !_TAG_KIND_DESCRIPTION!Markdown	s,section	/sections/
 !_TAG_KIND_DESCRIPTION!Markdown	t,subsubsection	/level 3 sections/
 !_TAG_KIND_DESCRIPTION!Markdown	u,l5subsection	/level 5 sections/
+!_TAG_KIND_DESCRIPTION!Yaml	a,anchor	/anchors/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
@@ -45,6 +46,7 @@
 !_TAG_PARSER_VERSION!DTD	0.0	/current.age/
 !_TAG_PARSER_VERSION!Go	0.0	/current.age/
 !_TAG_PARSER_VERSION!Markdown	1.1	/current.age/
+!_TAG_PARSER_VERSION!Yaml	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/home/sanjeet/2026/hello-service/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
@@ -57,6 +59,7 @@
 !_TAG_ROLE_DESCRIPTION!DTD!parameterEntity	partOfAttDef	/part of attribute definition/
 !_TAG_ROLE_DESCRIPTION!Go!package	imported	/imported package/
 !_TAG_ROLE_DESCRIPTION!Go!unknown	receiverType	/receiver type/
+!_TAG_ROLE_DESCRIPTION!Yaml!anchor	alias	/alias/
 Message	main.go	/^	Message string `json:"message"`$/;"	m	struct:main.response	typeref:typename:string
 TestHealthHandler	main_test.go	/^func TestHealthHandler(t *testing.T) {$/;"	f	package:main
 TestHelloHandler	main_test.go	/^func TestHelloHandler(t *testing.T) {$/;"	f	package:main

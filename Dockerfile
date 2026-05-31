@@ -26,6 +26,10 @@ WORKDIR /app
 # Copy only the compiled binary from the builder stage.
 COPY --from=builder /app/hello-service .
 
+# APP_VERSION is injected at build time by GitHub Actions.
+ARG APP_VERSION=dev
+ENV APP_VERSION=${APP_VERSION}
+
 EXPOSE 8080
 
 ENTRYPOINT ["./hello-service"]
